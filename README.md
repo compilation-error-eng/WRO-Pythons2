@@ -27,11 +27,20 @@ We used the l298 motor driver to move the motor forward and backwards and it is 
 For the battery we used a normal 12volt battery with 3600mah
 
 For our steering mechanism we used a servo motor connected to a rod that controls the position of the robot.
+
+
 ![YM2758-arduino-compatible-9g-micro-servo-motorImageMain-515](https://user-images.githubusercontent.com/53234566/190664667-5a128ea8-c32c-4e85-afb5-55801c2c1afe.jpg) 
+
+
 We also used an IMU sensor to control the deviation of the robot from its origin point in certain turns 
+
+
 ![imu sensor](https://user-images.githubusercontent.com/53234566/190664649-3865e52b-9e65-4574-ab5f-0e2042d5aea7.jpg) 
 
+
 We used a stepdown buck converter DC to DC to convert the 12volts that are coming from the battery to 9 volts in order for the Arduino Nano to use it
+
+
 ![buck convertor](https://user-images.githubusercontent.com/53234566/190664628-ebff8b66-d8b5-4184-9526-bde0ec09e846.jpg)
 
 
