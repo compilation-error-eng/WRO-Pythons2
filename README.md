@@ -44,8 +44,22 @@ We used a stepdown buck converter DC to DC to convert the 12volts that are comin
 ![buck convertor](https://user-images.githubusercontent.com/53234566/190664628-ebff8b66-d8b5-4184-9526-bde0ec09e846.jpg)
 
 
+Links:
 
+Arduino Nano:
+https://store.arduino.cc/products/arduino-nano
 
+l298 motordriver:
+https://store.fut-electronics.com/products/l298-dual-motor-driver-module-2a
 
+IMU sensor:
+https://makerselectronics.com/product/imu-mpu-6050-gyroscope-accelerometer-sensor-module
 
+buck cnovertor:
+https://makerselectronics.com/product/xl4015-step-down-dc-module-with-cv-cc-control
 
+servo motor:
+https://makerselectronics.com/product/micro-servo-sg92r
+
+openmv H7 R2 camera:
+https://openmv.io/products/openmv-cam-h7-r2
