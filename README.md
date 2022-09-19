@@ -63,3 +63,28 @@ https://makerselectronics.com/product/micro-servo-sg92r
 
 openmv H7 R2 camera:
 https://openmv.io/products/openmv-cam-h7-r2
+ 
+
+Explenation for the code:
+
+we divided the code into steps :
+1. Blocks
+2. lines
+3. walls
+ordered according to priority
+
+I will now explain each step briefly:
+
+1. Blocks:
+we used a simple searching algorithm where the camera search in aspecified ROI (Region Of Intrest)
+and applied a threshold for the camera to see only the specified color which is either Green or Blue we also used this for the rest of the algorithm
+but in the code it is important to make the blocks the highest priority so it can turn around it even if there is a line
+
+2. Lines:
+In the lines it was a little diffrent from the blocks because u have two lines with diffrent colours and u need to turn according to the forst one the camera sees and u can simply do that with flags and counters make a counter that starts counting when it sees orange (or blue if u started on the oppisite)
+then if that counter gets high enough that means that he needs to turn the next time he sees a line otherwise dont turn and we also used the IMU MPU sensor to calculate degree of turn and made him turn only 45 degrees so he turns according to the block if there is one
+
+3. Walls:
+in the walls it was pretty simple but because of my camera was a little bugged it only saw one wall ond rarely sees the two lines togethor so i modified the 
+original algorithm to suite my bugged camera which is always easier than getting a new camera i made 3 cinditions in total if the robot sees only the right wall it will position itself according to it , if it sees only the left wall it will also posistion itself accordingly  and if it sees the 2 walls togethor
+(which rarely happens) this algorithm works but ofcourse it does have its bugs but i cant really afford a new camera so im sticking with this until i afford it
