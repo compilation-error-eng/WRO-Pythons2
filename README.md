@@ -88,3 +88,8 @@ then if that counter gets high enough that means that he needs to turn the next 
 in the walls it was pretty simple but because of my camera was a little bugged it only saw one wall ond rarely sees the two lines togethor so i modified the 
 original algorithm to suite my bugged camera which is always easier than getting a new camera i made 3 cinditions in total if the robot sees only the right wall it will position itself according to it , if it sees only the left wall it will also posistion itself accordingly  and if it sees the 2 walls togethor
 (which rarely happens) this algorithm works but ofcourse it does have its bugs but i cant really afford a new camera so im sticking with this until i afford it
+
+electric schematic of the robot:
+
+![WRO schematic](https://user-images.githubusercontent.com/53234566/191744019-a79c87a5-899a-4dea-8a62-5bf5a44dc9ad.png)
+
