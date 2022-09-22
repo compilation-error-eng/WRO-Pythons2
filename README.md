@@ -8,17 +8,17 @@ For seeing the blocks and moving accordingly we used the Openmv H7 plus camera m
 
 ![openmv1](https://user-images.githubusercontent.com/53234566/190664656-b2dc7a8f-ef66-465b-81c5-f77d46647ddd.jpg)
 
-Link of component can be found at the end
+>Link of components can be found at the end
 
 
-For communicating with the camera module we used and the motors to move accordingly we used an ordinary Arduino Nano 
+For communicating with the camera module and order the motors to move accordingly we used an ordinary Arduino Nano 
 A photo of it:
 
 
 ![index](https://user-images.githubusercontent.com/53234566/190664654-73a4b632-6b9f-42ce-ab9c-55d61f8951d9.jpg)
 
 
-Link can be found later
+>Link can be found later
 
 
 
@@ -31,7 +31,7 @@ We used the l298 motor driver to move the motor forward and backwards and it is 
 
 
 
-For the battery we used a normal 12volt battery with 3600mah
+For the battery we used a standard 12volt battery with 3600mah
 
 For our steering mechanism we used a servo motor connected to a rod that controls the position of the robot.
 
@@ -84,17 +84,23 @@ ordered according to priority
 I will now explain each step briefly:
 
 ### Blocks:
+
+------------
 we used a simple searching algorithm where the camera search in aspecified ROI (Region Of Intrest)
-and applied a threshold for the camera to see only the specified color which is either Green or Blue we also used this for the rest of the algorithm
-but in the code it is important to make the blocks the highest priority so it can turn around it even if there is a line
+and applied a threshold for the camera to see only the specified color which is either Green or red if u want to see the blocks and that threshold can be changed in order to see diffrent colors and do diffrent tasks so we used this for the rest of the algorithm
+, but there is a twist in the blocks part of the code it is important to make the blocks the highest priority so it can turn around it even if there is a line
 
 ### Lines:
-In the lines it was a little diffrent from the blocks because u have two lines with diffrent colours and u need to turn according to the forst one the camera sees and u can simply do that with flags and counters make a counter that starts counting when it sees orange (or blue if u started on the oppisite)
-then if that counter gets high enough that means that he needs to turn the next time he sees a line otherwise dont turn and we also used the IMU MPU sensor to calculate degree of turn and made him turn only 45 degrees so he turns according to the block if there is one
+
+------------
+In the lines it was a little diffrent from the blocks because u have two lines with diffrent colours and u need to turn according to the first one the camera sees and u can simply do that with flags and counters ,make a counter that starts counting when it sees orange (or blue if u started in the opposite direction )
+then if that counter gets high enough that means that he needs to turn the next time he sees a line otherwise dont turn and we also used the IMU MPU 6050 sensor to calculate degree of turn and made him turn only 45 degrees so he turns according to the block if there is one
 
 ### Walls:
+
+------------
 in the walls it was pretty simple but because of my camera was a little bugged it only saw one wall ond rarely sees the two lines togethor so i modified the 
-original algorithm to suite my bugged camera which is always easier than getting a new camera i made 3 cinditions in total if the robot sees only the right wall it will position itself according to it , if it sees only the left wall it will also posistion itself accordingly  and if it sees the 2 walls togethor
+original algorithm to suite my bugged camera which is always easier than getting a new camera i made , but isnt necessary, I write 3 conditions in total if the robot sees only the right wall it will position itself according to it , if it sees only the left wall it will also posistion itself accordingly  and if it sees the 2 walls togethor
 (which rarely happens) this algorithm works but ofcourse it does have its bugs but i cant really afford a new camera so im sticking with this until i afford it
 
 # electric schematic of the robot:
@@ -106,25 +112,37 @@ original algorithm to suite my bugged camera which is always easier than getting
 
 ### Front view:
 
+-----------------
+
 ![20220922_151222](https://user-images.githubusercontent.com/53234566/191758058-3cbd28ec-5724-4a01-979f-55adad4fea03.jpg)
 
 ### left view:
+
+---------------
 
 ![20220922_151230](https://user-images.githubusercontent.com/53234566/191758571-ab9573af-a859-4f47-8eb2-d29ef0bdb196.jpg)
 
 ### Back view:
 
+-----------------
+
 ![20220922_151238](https://user-images.githubusercontent.com/53234566/191759400-ccd105cb-362a-457c-8fb2-9538c3bfe891.jpg)
 
 ### Right view:
+
+----------------
 
 ![20220922_151214](https://user-images.githubusercontent.com/53234566/191759758-44a14a42-e6a3-4a12-971a-a43b15dc9b1d.jpg)
 
 ### Top view:
 
+--------------
+
 ![20220922_151308](https://user-images.githubusercontent.com/53234566/191760222-13e0ce86-7adc-4e3d-9656-cb318bbffb24.jpg)
 
 ### Bottom view:
+
+-----------------
 
 ![20220922_151442](https://user-images.githubusercontent.com/53234566/191760910-aeb3f4a3-2be7-41a6-9fe4-b565a072f535.jpg)
 
