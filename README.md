@@ -29,6 +29,7 @@ For the battery we used a normal 12volt battery with 3600mah
 For our steering mechanism we used a servo motor connected to a rod that controls the position of the robot.
 
 
+
 ![YM2758-arduino-compatible-9g-micro-servo-motorImageMain-515](https://user-images.githubusercontent.com/53234566/190664667-5a128ea8-c32c-4e85-afb5-55801c2c1afe.jpg) 
 
 
@@ -92,4 +93,25 @@ original algorithm to suite my bugged camera which is always easier than getting
 electric schematic of the robot:
 
 ![WRO schematic](https://user-images.githubusercontent.com/53234566/191744019-a79c87a5-899a-4dea-8a62-5bf5a44dc9ad.png)
+
+
+pictures of robot:
+
+Front view:
+![20220922_151222](https://user-images.githubusercontent.com/53234566/191758058-3cbd28ec-5724-4a01-979f-55adad4fea03.jpg)
+
+left view:
+![20220922_151230](https://user-images.githubusercontent.com/53234566/191758571-ab9573af-a859-4f47-8eb2-d29ef0bdb196.jpg)
+
+Back view:
+![20220922_151238](https://user-images.githubusercontent.com/53234566/191759400-ccd105cb-362a-457c-8fb2-9538c3bfe891.jpg)
+
+Right view:
+![20220922_151214](https://user-images.githubusercontent.com/53234566/191759758-44a14a42-e6a3-4a12-971a-a43b15dc9b1d.jpg)
+
+Top view:
+![20220922_151308](https://user-images.githubusercontent.com/53234566/191760222-13e0ce86-7adc-4e3d-9656-cb318bbffb24.jpg)
+
+Bottom view:
+![20220922_151442](https://user-images.githubusercontent.com/53234566/191760910-aeb3f4a3-2be7-41a6-9fe4-b565a072f535.jpg)
 
