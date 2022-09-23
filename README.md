@@ -146,3 +146,9 @@ original algorithm to suite my bugged camera which is always easier than getting
 
 ![20220922_151442](https://user-images.githubusercontent.com/53234566/191760910-aeb3f4a3-2be7-41a6-9fe4-b565a072f535.jpg)
 
+
+# Assembly of robot:
+
+![wro ass](https://user-images.githubusercontent.com/53234566/192032420-a2fbcb63-8b91-470a-a66d-9b70309d59a5.jpg)
+
+
