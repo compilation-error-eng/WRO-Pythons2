@@ -1,6 +1,6 @@
 # WRO FUTURE ENGINEERS The Pythons 2 
 
-This is a detailed documentation of our project in the WRO FUTURE ENGINEERS competition of my team that consist of 3 people and our coach Omar Khaled Elsayed . My name is Ahmed Elsayed and I am responsible for the programming of the robot , my teammates are Nour Raoof and Eyad Ahmed Nazary each are responsible for the mechanical and the electrical section of the robot respectively . We are from Egypt and are joining the WRO competition for the first time and I am going to explain the steps and procedures that went into creating our robot.
+This is a detailed documentation of our project in the WRO FUTURE ENGINEERS competition of my team that consist of 3 people and our coach Omar Khaled Elsayed . My name is Ahmed Elsayed and I am responsible for the programming of the robot , my teammates are Nour Eldin Raoof and Eyad Ahmed Nazary each are responsible for the mechanical and the electrical section of the robot respectively . We are from Egypt and are joining the WRO competition for the first time and I am going to explain the steps and procedures that went into creating our robot.
 
 ## Firstly: Our components
 For seeing the blocks and moving accordingly we used the Openmv H7 plus camera module it is a cheap easy to buy camera module that is similar to the raspberry pi but is much cheaper here is a photo of it:
