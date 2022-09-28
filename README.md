@@ -79,6 +79,7 @@ we divided the code into steps :
 - Blocks
 - lines
 - walls
+
 ordered according to priority
 
 I will now explain each step briefly:
