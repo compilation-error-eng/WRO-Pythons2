@@ -151,4 +151,14 @@ original algorithm to suite my bugged camera which is always easier than getting
 
 ![wro ass](https://user-images.githubusercontent.com/53234566/192032420-a2fbcb63-8b91-470a-a66d-9b70309d59a5.jpg)
 
+-------------------------------------------------------------------------------------------------------------------
 
+# finishing off:
+
+It was a real plesure to join this competetion we didint place first like i wanted but i sure learned alot from this competition and i would love to join it again next year but this time ill definantly place first since i have enough determination and i have the amazing support of my coach youssef it was such a pleasure to join this and be part of a growing and fun community with like minded people who also have a burning passion for robotics
+ 
+
+ ## A photo of us at the awarding ceremony after we placed third:
+ 
+ ![FB_IMG_1664358030663](https://user-images.githubusercontent.com/53234566/192772943-707111e4-71ee-4861-91b7-da19cde6086d.jpg)
+---------------------------------------------------------------------------------------------------------------------------------- 
